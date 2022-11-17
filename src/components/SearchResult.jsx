@@ -7,7 +7,7 @@ function SearchResult() {
   return (
     <>
       <div className="flex">
-        <div className="card w-96 bg-base-100 shadow-2xl	">
+        <div className="card w-96 bg-base-200 shadow-2xl shadow-t-2">
           <div className="card-body relative">
             <div className="absolute top-0 right-0 dropdown dropdown-end ">
               <label
@@ -18,7 +18,7 @@ function SearchResult() {
               </label>
               <ul
                 tabIndex={0}
-                className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
+                className="dropdown-content menu p-2 shadow bg-base-300  rounded-box w-52 "
               >
                 <li>
                   <button onClick={() => setIsUpdating(true)}>Update</button>
@@ -90,7 +90,7 @@ function SearchResult() {
       >
         <div className="modal-box">
           <h3 className="font-bold text-lg">Update Thing</h3>
-          
+
           <div className="modal-action">
             <label
               htmlFor="my-modal-6"
